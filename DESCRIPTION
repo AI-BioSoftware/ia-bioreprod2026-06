@@ -1,0 +1,45 @@
+Package: fig2aheatmap
+Title: Reproduce Figure 2A Heatmap from Yeast Cell-Cycle Data
+Version: 0.0.2
+Authors@R: 
+    person(given = "Sandrine",
+           family = "Caburet",
+           role = c("aut", "cre"),
+           email = "sandrine.caburet@example.org")
+Description: Reproducible tools to recreate a Figure 2A-like heatmap from the
+    published supplementary ranking table of periodic Saccharomyces cerevisiae
+    genes. The package reads the supplementary Excel file, filters genes using
+    LS_cutoff and Figure2A_order_peaktime, computes per-gene z-scores, exports
+    the processed matrix, and generates a publication-style heatmap.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.3.0)
+Imports:
+    circlize,
+    ComplexHeatmap,
+    dplyr,
+    grid,
+    readxl,
+    rlang,
+    stringr,
+    tibble,
+    utils
+Suggests:
+    covr,
+    devtools,
+    knitr,
+    lintr,
+    pkgdown,
+    rmarkdown,
+    roxygen2,
+    spelling,
+    styler,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+URL: https://github.com/USERNAME/fig2aheatmap
+BugReports: https://github.com/USERNAME/fig2aheatmap/issues
+LazyData: false
