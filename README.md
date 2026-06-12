@@ -3,11 +3,20 @@ Résultat Atelier Reproducibilité - IA bioscripting 2026 - SC
 
 
 TP réalisé avec Perplexity academic, en mode computer.
-Espace de travail de Perplexity : 
-https://www.perplexity.ai/spaces/iabioscriting-2026-EhFNwHfDR82X24fqCQasTw
+Espace de travail de Perplexity :    
+https://www.perplexity.ai/spaces/iabioscriting-2026-EhFNwHfDR82X24fqCQasTw   
 
-Premier chat (en bas) : session de départ, finie quand j'ai épuisé le compte gratuit
+Premier chat (en bas) : session de départ, finie quand j'ai épuisé le compte gratuit    
 Deuxième chat (en haut) quand j'ai basculé sur le forfait Pro pour teminer le TP
+
+Prompt Initial dans perplexity :   data-raw/prompt_Initial   
+"Tu es un assistant de codage pour aider des chercheurs en génomique fonctionnelle.   
+Voici un article scientifique publié en 2016. Je veux pouvoir refaire exactement la figure 2A.   
+Sur la base de l’article complet fourni en pdf, propose moi un déroulé des analyses nécessaires pour refaire cette figure, à partir du fichier de données pgen.1006453.s002.xlsx.   
+Détaille les outils utilisés et les explications nécessaires pour comprendre chaque étape.   
+Ecris ensuite le script R qui permet de refaire la figure 2A, à mettre dans un dossier contenant le fichier de données.   
+Tu peux utiliser des ressources en ligne. Indique les ressources utilisées.  
+Pose-moi les questions nécessaires pour avancer si tu es bloqué."    
 
 
 # fig2aheatmap
