@@ -3,7 +3,7 @@
 #' @return A path to the bundled supplementary Excel file.
 #' @export
 default_excel_path <- function() {
-  system.file("extdata", "pgen.1006453.s002-3.xlsx", package = "fig2aheatmap")
+  system.file("extdata", "pgen.1006453.s002.xlsx", package = "fig2aheatmap")
 }
 
 validate_required_columns <- function(data, required_columns) {
