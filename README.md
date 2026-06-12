@@ -1,6 +1,15 @@
 # ia-bioreprod2026-06
 Résultat Atelier Reproducibilité - IA bioscripting 2026 - SC
 
+
+TP réalisé avec Perplexity academic, en mode computer.
+Espace de travail de Perplexity : 
+https://www.perplexity.ai/spaces/iabioscriting-2026-EhFNwHfDR82X24fqCQasTw
+
+Premier chat (en bas) : session de départ, finie quand j'ai épuisé le compte gratuit
+Deuxième chat (en haut) quand j'ai basculé sur le forfait Pro pour teminer le TP
+
+
 # fig2aheatmap
 
 `fig2aheatmap` est un dépôt R reproductible pour recréer une heatmap de type Figure 2A à partir du tableau supplémentaire publié dans Kelliher et al. 2016. La publication indique que la Figure 2A de *S. cerevisiae* contient 1246 gènes périodiques après filtrage Lomb-Scargle, ordonnés selon leur temps de pic d'expression. [file:22][file:23]
