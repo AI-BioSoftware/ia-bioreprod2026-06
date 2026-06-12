@@ -1,0 +1,4 @@
+^data-raw$
+^\.github$
+^README\.md$
+^renv$
